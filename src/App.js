@@ -1,13 +1,13 @@
-import { Container, CssBaseline } from "@material-ui/core";
-import { ThemeProvider } from "@material-ui/core/styles";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Container, CssBaseline } from '@material-ui/core';
+import { ThemeProvider } from '@material-ui/core/styles';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-import theme from "./theme";
+import theme from './theme';
 
-import Students from "./components/students/Students";
-import Student from "./components/students/Student";
-import AddStudent from "./components/students/AddStudent";
-import EditStudent from "./components/students/EditStudent";
+import Students from './components/students/Students';
+import Student from './components/students/Student';
+import AddStudent from './components/students/AddStudent';
+import EditStudent from './components/students/EditStudent';
 
 function App() {
   return (
